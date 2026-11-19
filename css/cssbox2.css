@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#wrapper {
+  width: 493px;
+  padding: 10px 10px 14px 10px;
+  border: 1px solid #777;
+}
+
+#header {
+  height: 54px;
+  background-color: #b7dd9a;
+  border: 1px solid #555;
+  margin-bottom: 22px;
+}
+
+.baris {
+  overflow: hidden;         
+}
+
+.baris-1 { height: 95px; margin-bottom: 17px; }
+.baris-2 { height: 81px; }
+
+.kotak-kecil {
+  float: left;
+  width: 94px;
+  height: 100%;
+  border: 1px solid #555;
+}
+
+.kotak-besar {
+  float: right;
+  width: 355px;
+  height: 100%;
+  border: 1px solid #555;
+}
+
+.kuning    { background-color: #f2ea6b; }
+.oranye    { background-color: #ee6f3b; }
+.biru-muda { background-color: #76d4f6; }

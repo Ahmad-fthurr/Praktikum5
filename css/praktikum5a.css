@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  font-size: 13px;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  width: 560px;
+  height: 308px;
+}
+
+/* Kolom kiri */
+nav {
+  flex: 0 0 22.5%;
+  background-color: #f7c1cc;
+  padding: 12px;
+}
+
+/* Kolom kanan: header - (article + aside) - footer */
+.konten {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  flex: 0 0 20%;
+  display: flex;
+  align-items: center;
+  background-color: #ede79b;
+  padding: 0 12px;
+}
+
+.tengah {
+  flex: 1;
+  display: flex;
+}
+
+article {
+  flex: 1;
+  background-color: #ffffff;
+  padding: 12px;
+}
+
+aside {
+  flex: 0 0 30%;
+  background-color: #76f6f8;
+  padding: 12px;
+}
